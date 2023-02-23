@@ -4,7 +4,6 @@
         "title": "Hi, I'm vissnu karthik",
         "subtitles": [
             "Full-stack developer 🌐",
-            "Cross-platform developer 📱💻",
             "Exploring cloud ☁️",
             "Beginner in devops ♾️",
             "Just getting started 📈"
@@ -40,9 +39,7 @@
             "C++",
             "Python",
             "HTML5",
-            "CSS3",
-            "Kotlin",
-            "Dart"
+            "CSS3"
         ],
         "Frontend": [
             "React",
