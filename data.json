@@ -1,72 +1,65 @@
 {
-    "name": "Kaustubh Odak",
+    "name": "vissnu karthik",
     "landing": {
         "title": "Hi, I'm vissnu karthik",
         "subtitles": [
             "Full-stack developer 🌐",
-            "Exploring cloud ☁️",
-            "Beginner in devops ♾️",
+            "Exploring web ☁️",
             "Just getting started 📈"
         ],
         "professionalDetails": [
             {
-                "alt": "kaustubh-odak",
+                "alt": "vissnu-karthik",
                 "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/kaustubh-odak/"
+                "link": "https://www.linkedin.com/in/vissnukarthik/"
             },
             {
-                "alt": "kausko",
+                "alt": "vissnu-karthik",
                 "icon": "stackoverflow",
-                "link": "https://stackoverflow.com/users/15832433/kausko"
+                "link": "https://stackoverflow.com/users/15832433/vissnukarthik"
             },
             {
-                "alt": "kausko",
+                "alt": "vissnu-karthik",
                 "icon": "github",
-                "link": "https://github.com/kausko"
+                "link": "https://github.com/vissnukarthik"
             },
             {
                 "alt": "Email",
                 "icon": "gmail",
-                "link": "mailto:iam@kaustubhodak.me,kaustubhodak1@gmail.com"
+                "link": "mailto:vissnukarthik@gmail.com"
             }
         ]
     },
     "skills": {
         "Languages known": [
-            "TypeScript",
+            "C",
+            "C++",
             "JavaScript",
             "Java",
-            "C++",
-            "Python",
-            "HTML5",
-            "CSS3"
+            "Python"
+           
         ],
         "Frontend": [
+            "HTML5",
+            "CSS3",
             "React",
-            "Redux",
-            "Next.js",
-            "Gatsby",
-            "Netlify",
+            "Context API",
             "Vercel",
-            "Material-UI",
-            "antdesign",
-            "Bootstrap"
+            "Material-UI"
         ],
         "Backend, Database and Cloud": [
             "Node.js",
             "Express",
-            "FastAPI",
+            "REST API",
             "MongoDB",
             "MySQL",
-            "PostgreSQL",
             {
                 "alt": "Azure",
                 "icon": "microsoftazure"
             },
-            "Heroku",
             "Firebase"
         ],
-        "Mobile": [
+        "Tools": [
             {
                 "alt": "React_Native",
                 "icon": "react",
@@ -101,18 +94,6 @@
                 "country": "India",
                 "url": "https://www.linkedin.com/company/clouddfn-llp/",
                 "thumbnail": "/CDFN.jfif"
-            },
-            {
-                "organization": "NonceBlox Pvt. Ltd.",
-                "role": "Full Stack Developer",
-                "type": "Internship",
-                "startDate": "2021-07-01",
-                "endDate": "2021-10-01",
-                "city": "New Delhi",
-                "state": "Delhi",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "https://www.nonceblox.com/ton3.png"
             }
         ],
         "Volunteer Experience": [
@@ -127,18 +108,6 @@
                 "country": "India",
                 "url": "https://www.linkedin.com/company/pisbieee/",
                 "thumbnail": "/PISB.jfif"
-            },
-            {
-                "organization": "Pictoreal",
-                "role": "Technical Head",
-                "type": "Member",
-                "startDate": "2019-07-01",
-                "endDate": "2021-04-01",
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/pictoreal/",
-                "thumbnail": "/Picto.jfif"
             }
         ]
     },
