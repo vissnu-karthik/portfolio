@@ -37,26 +37,20 @@
             "JavaScript",
             "Java",
             "Python"
-           
         ],
         "Frontend": [
             "HTML5",
             "CSS3",
             "React",
-            "Context API",
             "Vercel",
             "Material-UI"
         ],
         "Backend, Database and Cloud": [
             "Node.js",
             "Express",
-            "REST API",
+            "REST.API",
             "MongoDB",
             "MySQL",
-            {
-                "alt": "Azure",
-                "icon": "microsoftazure"
-            },
             "Firebase"
         ],
         "Tools": [
@@ -65,55 +59,52 @@
                 "icon": "react",
                 "backgroundColor": "#424242"
             },
-            "Expo",
-            "Android",
-            "Flutter"
+            "Git",
+            "GitHub",
+            "Postman"
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/kausko/",
+        "baseURI": "https://api.github.com/repos/vissnukarthik/",
         "repositories": [
-            "Portfolio",
-            "Genrealize",
-            "Discord-Google-Drive-Bot",
-            "GitHits",
-            "Mail-em",
-            "JAutoLayout"
+            "to-do-app",
+            "booking",
+            "react-router"
         ]
     },
     "experience": {
         "Work Experience": [
             {
-                "organization": "CloudDFN LLP",
-                "role": "Full Stack Developer",
+                "organization": "Suven Consultants and Technology Pvt.Ltd.",
+                "role": "Java Developer",
                 "type": "Internship",
-                "startDate": "2020-07-20",
-                "endDate": "2021-01-20",
+                "startDate": "2021-11-16",
+                "endDate": "2021-12-16",
                 "city": "Mumbai",
                 "state": "Maharashtra",
                 "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
+                "url": "https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd/",
                 "thumbnail": "/CDFN.jfif"
             }
         ],
         "Volunteer Experience": [
             {
-                "organization": "PICT IEEE Student Branch (PISB)",
-                "role": "Technical Head",
+                "organization": "FOODTURE CLUB 🥂 ✨ ",
+                "role": "Worker",
                 "type": "Member",
-                "startDate": "2019-07-01",
+                "startDate": "2022-12-08",
                 "endDate": "",
-                "city": "Pune",
-                "state": "Maharashtra",
+                "city": "BIT",
+                "state": "Erode",
                 "country": "India",
-                "url": "https://www.linkedin.com/company/pisbieee/",
-                "thumbnail": "/PISB.jfif"
+                "url": "https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd/",
+                "thumbnail": "/pi.jfif"
             }
         ]
     },
     "about": {
-        "description": "I am a full-stack cross-platform app developer, pursuing my M.S. in Computer Science from Georgia Tech. I strive to make meaningful applications with the best UI practices. ",
-        "picture": "/profile.JPG",
+        "description": "I am a full-stack  app developer, pursuing my B.E in Electronic and Communication BIT ,Sathy. I strive to make meaningful applications with the best UI practices. ",
+        "picture": "/abot.jpej",
         "social": []
     },
     "theme": {

@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default function Projects({ data }) {
-
+    console.log(data)
     const classes = useStyles()
 
     const animRef = useRef(null)
