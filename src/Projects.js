@@ -19,6 +19,14 @@ const useStyles = makeStyles(theme => ({
 
 export default function Projects({ data }) {
     console.log(data)
+    const newdata = [
+        {
+            title:"to do app",
+            desc:"simple mern to do app",
+            url:"https://github.com/vissnukarthik",
+            languages:["javascript","HTML","CSS"]
+        }
+    ]
     const classes = useStyles()
 
     const animRef = useRef(null)
@@ -51,26 +59,26 @@ export default function Projects({ data }) {
                                 <Card key={i} className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={v.value.html_url}
+                                        href={newdata[0].url}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <CardHeader
-                                            title={<><RepoIcon verticalAlign='middle' /> {v.value.name}</>}
+                                            title={<><RepoIcon verticalAlign='middle' />To do App</>}
                                             subheader={
                                                 <>
                                                     {
                                                         !!v.value.stargazers_count &&
                                                         <>
                                                             <StarIcon verticalAlign='middle' />
-                                                            {v.value.stargazers_count}
+                                                            2
                                                         </>
                                                     }
                                                     {
                                                         !!v.value.forks &&
                                                         <>
                                                             <RepoForkedIcon verticalAlign='middle' />
-                                                            {v.value.forks}
+                                                            1
                                                         </>
                                                     }
                                                 </>
@@ -78,14 +86,13 @@ export default function Projects({ data }) {
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                                {v.value.description}
+                                                Simple Todo App which can be used to 
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
                                                 {
-                                                    !!v.value.languages &&
-                                                    v.value.languages.map((lang, i) =>
+                                                    newdata[0].languages.map((lang, i) =>
                                                         <Grid item key={i}>
                                                             <Chip
                                                                 key={i}
@@ -107,3 +114,4 @@ export default function Projects({ data }) {
         </Grid>
     )
 }
+

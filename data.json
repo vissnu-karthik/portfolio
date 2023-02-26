@@ -16,7 +16,7 @@
             {
                 "alt": "vissnu-karthik",
                 "icon": "stackoverflow",
-                "link": "https://stackoverflow.com/users/15832433/vissnukarthik"
+                "link": "https://stackoverflow.com/users/19538981/vishnu-karthik"
             },
             {
                 "alt": "vissnu-karthik",
@@ -54,11 +54,7 @@
             "Firebase"
         ],
         "Tools": [
-            {
-                "alt": "React_Native",
-                "icon": "react",
-                "backgroundColor": "#424242"
-            },
+           
             "Git",
             "GitHub",
             "Postman"
@@ -67,9 +63,7 @@
     "projects": {
         "baseURI": "https://api.github.com/repos/vissnukarthik/",
         "repositories": [
-            "to-do-app",
-            "booking",
-            "react-router"
+            "to-do-app"
         ]
     },
     "experience": {
