@@ -18,20 +18,16 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default function Projects({ data }) {
-    console.log(data)
-    const newdata = [
-        {
-            title:"to do app",
-            desc:"simple mern to do app",
-            url:"https://github.com/vissnukarthik",
-            languages:["javascript","HTML","CSS"]
-        }
-    ]
+    // console.log(data)
     const classes = useStyles()
 
     const animRef = useRef(null)
     const animate = useAnimate(animRef)
-
+    const prjs = [
+        {name:"Expense Tracker",desc:"Simple to do to manage daily Expenses",count:"3",forks:"1",lang:["javascript","HTML","CSS"],link:"https://github.com/vissnukarthik/to-do-app"},
+        {name:"Global Metric App",desc:"App offers valuable information on over 180 countries in an easy-to-use format",count:"1",forks:"1",lang:["React Js","javascript","REST API"],link:"https://github.com/vissnukarthik/"},
+        {name:"To do App",desc:"Simple to do to manage daily tasks",count:"1",forks:"1",lang:["javascript","HTML","CSS"],link:"https://github.com/vissnukarthik/to-do-app"},
+    ];
     return (
         <Grid direction="row-reverse" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
             <Grid item xs={12} lg={6}>
@@ -53,46 +49,47 @@ export default function Projects({ data }) {
             </Grid>
             <Grid container item xs={12} lg={6} direction="row" spacing={1}>
                 {
-                    !!data && data.map((v, i) =>
+                    !!prjs && prjs.map((v, i) =>
                         <Grid item sm={6} xs={12} key={i}>
                             <Fade in={animate} style={{ transitionDelay: `${200 * i}ms` }}>
                                 <Card key={i} className={classes.card}>
                                     <CardActionArea
                                         className={classes.cardActionArea}
-                                        href={newdata[0].url}
+                                        href={v.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <CardHeader
-                                            title={<><RepoIcon verticalAlign='middle' />To do App</>}
+                                            title={<><RepoIcon verticalAlign='middle' /> {v.name}</>}
                                             subheader={
                                                 <>
                                                     {
-                                                        !!v.value.stargazers_count &&
+                                                        !!v.count &&
                                                         <>
                                                             <StarIcon verticalAlign='middle' />
-                                                            2
+                                                            {v.count}
                                                         </>
                                                     }
-                                                    {
-                                                        !!v.value.forks &&
+                                                    {/* {
+                                                        !!v.forks &&
                                                         <>
                                                             <RepoForkedIcon verticalAlign='middle' />
-                                                            1
+                                                            {v.forks}
                                                         </>
-                                                    }
+                                                    } */}
                                                 </>
                                             }
                                         />
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
-                                                Simple Todo App which can be used to 
+                                                {v.desc}
                                             </Typography>
                                         </CardContent>
                                         <CardActions>
                                             <Grid container direction="row" spacing={1}>
                                                 {
-                                                    newdata[0].languages.map((lang, i) =>
+                                                    !!v.lang &&
+                                                    v.lang.map((lang, i) =>
                                                         <Grid item key={i}>
                                                             <Chip
                                                                 key={i}
@@ -114,4 +111,3 @@ export default function Projects({ data }) {
         </Grid>
     )
 }
-

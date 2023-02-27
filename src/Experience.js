@@ -66,7 +66,14 @@ export default function Experience() {
     const animate = useAnimate(animRef)
 
     return (
-        <Grid direction="row" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
+        <div  direction="row" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
+            <style jsx>{`
+            @media (min-width: 800px) {
+                div {
+                display: flex;
+                }
+            }
+            `}</style>
             <Grid item xs={12} lg={6}>
                 <Typography variant="h2" gutterBottom align="center">
                     Experience
@@ -150,6 +157,6 @@ export default function Experience() {
                 }
             </Grid>
             <div ref={animRef}></div>
-        </Grid>
+        </div>
     )
 }

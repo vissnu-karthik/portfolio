@@ -9,6 +9,7 @@ import data from '../data.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
 const { name, projects } = data
+import Education from '../src/Education';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -24,7 +25,6 @@ export async function getStaticProps() {
   const repos = projects.repositories
   const reqInit = {
     headers: { 
-      'Authorization': `token ${process.env.PAT}`
     }
   }
   const fullRepoData = await Promise.allSettled(
@@ -76,8 +76,9 @@ export default function Index({ projects, setTheme }) {
       <Container>
         <Landing />
         <Skills />
-        <Projects data={projects}/>
-        {/* <Experience/> */}
+          <Projects data={projects}/>    
+         <Education/>
+        <Experience/>
         <About/>
       </Container>
     </div>

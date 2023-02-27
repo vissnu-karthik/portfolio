@@ -54,7 +54,6 @@
             "Firebase"
         ],
         "Tools": [
-           
             "Git",
             "GitHub",
             "Postman"
@@ -63,7 +62,40 @@
     "projects": {
         "baseURI": "https://api.github.com/repos/vissnukarthik/",
         "repositories": [
-            "to-do-app"
+            "to-do-app",
+            "booking",
+            "react-router"
+        ]
+    },
+    "education": {
+        "Collage - underGraduate": [
+            {
+                "organization": "Bannari Amman Institute of Technology",
+                "role": " Electronics and Communication Engineering",
+                "type": "",
+                "startDate": "2020",
+                "endDate": "Present",
+                "city": "Sathyamangalam",
+                "state": "Erode",
+                "country": "India",
+                "url": "https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd/",
+                "thumbnail": "/bit.jfif"
+            }
+        ],
+        
+        "School ": [
+            {
+                "organization": "Kongu Vellalar Matriculation Higher Secondary School ",
+                "role": "SSLC and HSC",
+                "type": "Member",
+                "startDate": "2018",
+                "endDate": "2020",
+                "city": "Karumathampatti",
+                "state": "Coimbatore",
+                "country": "India",
+                "url": "https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd/",
+                "thumbnail": "/schl.jfif"
+            }
         ]
     },
     "experience": {
@@ -78,9 +110,10 @@
                 "state": "Maharashtra",
                 "country": "India",
                 "url": "https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd/",
-                "thumbnail": "/CDFN.jfif"
+                "thumbnail": "/suven.jfif"
             }
         ],
+        
         "Volunteer Experience": [
             {
                 "organization": "FOODTURE CLUB 🥂 ✨ ",
@@ -92,13 +125,13 @@
                 "state": "Erode",
                 "country": "India",
                 "url": "https://www.linkedin.com/company/suven-consultants-and-technology-pvt-ltd/",
-                "thumbnail": "/pi.jfif"
+                "thumbnail": "/vol.jfif"
             }
         ]
     },
     "about": {
-        "description": "I am a full-stack  app developer, pursuing my B.E in Electronic and Communication BIT ,Sathy. I strive to make meaningful applications with the best UI practices. ",
-        "picture": "/abot.jpej",
+        "description": "I am a tech-savvy and driven individual with a passion for problem-solving. Currently pursuing a degree in ECE, I have also developed skills in web development and React. My multifaceted approach to learning and diverse skill set make me a well-rounded and adaptable individual. ",
+        "picture": "/me.jpg",
         "social": []
     },
     "theme": {
