@@ -24,6 +24,7 @@ export default function Projects({ data }) {
     const animRef = useRef(null)
     const animate = useAnimate(animRef)
     const prjs = [
+        {name:"Code Connect",desc:"App where you see the all your coding profiles in one place and it gives an overview of how many problems you have solved",count:"3",forks:"1",lang:["javascript","HTML","CSS"],link:"https://github.com/vissnukarthik/to-do-app"},
         {name:"Expense Tracker",desc:"Simple to do to manage daily Expenses",count:"3",forks:"1",lang:["javascript","HTML","CSS"],link:"https://github.com/vissnukarthik/to-do-app"},
         {name:"Global Metric App",desc:"App offers valuable information on over 180 countries in an easy-to-use format",count:"1",forks:"1",lang:["React Js","javascript","REST API"],link:"https://github.com/vissnukarthik/"},
         {name:"To do App",desc:"Simple to do to manage daily tasks",count:"1",forks:"1",lang:["javascript","HTML","CSS"],link:"https://github.com/vissnukarthik/to-do-app"},
